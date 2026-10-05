@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+.output/
+.next/
+.astro/
+.vercel/
+.netlify/
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs & caches
+*.log
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# media originals (export web-sized versions instead, see content/README.md)
+**/originals/
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.raf
+*.dng
+*.psd
+
+# local Claude settings
+.claude/settings.local.json
